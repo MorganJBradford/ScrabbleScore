@@ -34,6 +34,50 @@ public void ScrabbleWordConstructor_CreatesInstanceofWord_True()
       newWord.OneScoreLetters();
       Assert.AreEqual(4, newWord.Counter);
     }
+    [TestMethod]
+    public void ScrabbleWord_DisplaysPtValueOf2PtWords_True()
+    {
+      ScrabbleWord newWord = new ScrabbleWord("dog");
+      newWord.TwoScoreLetters();
+      Assert.AreEqual(4, newWord.Counter);
+    }
+    [TestMethod]
+    public void ScrabbleWord_DisplaysPtValueOf3PtWords_True()
+    {
+      ScrabbleWord newWord = new ScrabbleWord("batch");
+      newWord.ThreeScoreLetters();
+      Assert.AreEqual(6, newWord.Counter);
+    }
+    [TestMethod]
+    public void ScrabbleWord_DisplaysPtValueOf4PtWords_True()
+    {
+      ScrabbleWord newWord = new ScrabbleWord("fart");
+      newWord.FourScoreLetters();
+      Assert.AreEqual(4, newWord.Counter);
+    }
+    [TestMethod]
+    public void ScrabbleWord_DisplaysPtValueOf5PtWords_True()
+    {
+      ScrabbleWord newWord = new ScrabbleWord("kill");
+      newWord.FiveScoreLetters();
+      Assert.AreEqual(5, newWord.Counter);
+    }
+    [TestMethod]
+    public void ScrabbleWord_DisplaysPtValueOf8PtWords_True()
+    {
+      ScrabbleWord newWord = new ScrabbleWord("jax");
+      newWord.EightScoreLetters();
+      Assert.AreEqual(16, newWord.Counter);
+    }
+
+    [TestMethod]
+    public void ScrabbleWord_DisplaysPtValueOf10PtWords_True()
+    {
+      ScrabbleWord newWord = new ScrabbleWord("quiz");
+      newWord.TenScoreLetters();
+      Assert.AreEqual(20, newWord.Counter);
+    }
+    
   }
 }
 // test1 correctly takes input from user
