@@ -1,0 +1,32 @@
+Make a console application that takes a word and returns the Scrabble score for that word. 
+Make sure to start with your specs, and that you include a README for this project and 
+create a Git repository for it. Here are the values of letters in Scrabble:
+
+A, E, I, O, U, L, N, R, S, T       1
+D, G                               2
+B, C, M, P                         3
+F, H, V, W, Y                      4
+K                                  5
+J, X                               8
+Q, Z                               10
+
+
+1) Program needs to take in a word from user
+2) Program needs to split that word into single characters
+3) Program needs a constructor that will include the users score and word
+4) project needs a larger method that includes smaller methods:
+    OnePointLetterCheck() - return score
+    onePtLetter = A, E, I, O, U, L, N, R, S, T
+      foreach (string onePtLetter in UserWordrray)
+      {
+        score +1
+      }
+    TwoPointLetterCheck() - return score
+    ThreePointLetterCheck() - return score
+    ...
+    ...
+    ...
+    ...
+    AddScore() - return total score
+5) Program will output user's word and score value
+   
