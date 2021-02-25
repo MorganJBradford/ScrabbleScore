@@ -22,11 +22,17 @@ public void ScrabbleWordConstructor_CreatesInstanceofWord_True()
     [TestMethod]
     public void LettersArray_CreatesAnArrayOfWordLetters_True()
     {
-      ScrabbleWord newWord = new ScrabbleWord("para");
-      string testWord = "para";
-      char[] testArray = testWord.ToCharArray();
-
+      ScrabbleWord newWord = new ScrabbleWord("pArA");
+      char[] testArray = {'P', 'A', 'R', 'A'};
       CollectionAssert.AreEqual(newWord.LettersArray, testArray);
+    }
+
+    [TestMethod]
+    public void ScrabbleWord_DisplaysPtValueOf1PtWords_True()
+    {
+      ScrabbleWord newWord = new ScrabbleWord("apples");
+      newWord.OneScoreLetters();
+      Assert.AreEqual(4, newWord.Counter);
     }
   }
 }
