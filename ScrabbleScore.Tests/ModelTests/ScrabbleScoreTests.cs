@@ -78,6 +78,14 @@ public void ScrabbleWordConstructor_CreatesInstanceofWord_True()
       Assert.AreEqual(20, newWord.Counter);
     }
     
+    [TestMethod]
+    public void ScrabbleWord_DisplaysPtValueOfAllWords_True()
+    {
+      ScrabbleWord newWord = new ScrabbleWord("quizzed");
+      newWord.ScoreWord();
+      Assert.AreEqual(35, newWord.Counter);
+    }
+    
   }
 }
 // test1 correctly takes input from user
