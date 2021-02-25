@@ -26,7 +26,7 @@ _This will be a small console program, where a user can insert a word and it wil
 * _In the same ScrabbleScore.Tests directory you can run the command `$dotnet test` to run the tests for the program in the terminal_
 * _To see results of the tests you will need to scroll up in the terminal to find the relevant testing information_
 * _If all tests are passing, the relevant information will be colored green, otherwise failing tests will return in red coloring_
-* _To run the program, you will need to navigate to the ScrabbleScore/ScrabbleScore directory and run the command `$dotnet run`_
+* _To run the program, you will need to navigate to the ScrabbleScore.Solution/ScrabbleScore directory and run the command `$dotnet run`_
 * _If everything is working correctly the prompt should appear in the terminal_
 
 ## Known Bugs

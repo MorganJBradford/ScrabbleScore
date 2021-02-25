@@ -1,0 +1,12 @@
+/Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/obj/Debug/net5.0/ScrabbleScore.csprojAssemblyReference.cache
+/Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/obj/Debug/net5.0/ScrabbleScore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/obj/Debug/net5.0/ScrabbleScore.AssemblyInfoInputs.cache
+/Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/obj/Debug/net5.0/ScrabbleScore.AssemblyInfo.cs
+/Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/obj/Debug/net5.0/ScrabbleScore.csproj.CoreCompileInputs.cache
+/Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/bin/Debug/net5.0/ScrabbleScore.deps.json
+/Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/bin/Debug/net5.0/ScrabbleScore.dll
+/Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/bin/Debug/net5.0/ref/ScrabbleScore.dll
+/Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/bin/Debug/net5.0/ScrabbleScore.pdb
+/Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/obj/Debug/net5.0/ScrabbleScore.dll
+/Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/obj/Debug/net5.0/ref/ScrabbleScore.dll
+/Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/obj/Debug/net5.0/ScrabbleScore.pdb
