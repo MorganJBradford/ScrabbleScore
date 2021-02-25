@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
 using ScrabbleScore.Models;
 using System;
 
@@ -17,6 +18,16 @@ public void ScrabbleWordConstructor_CreatesInstanceofWord_True()
   ScrabbleWord newWord = new ScrabbleWord("parascope");
   Assert.AreEqual(typeof(ScrabbleWord), newWord.GetType());
 }
+
+    [TestMethod]
+    public void LettersArray_CreatesAnArrayOfWordLetters_True()
+    {
+      ScrabbleWord newWord = new ScrabbleWord("para");
+      string testWord = "para";
+      char[] testArray = testWord.ToCharArray();
+
+      CollectionAssert.AreEqual(newWord.LettersArray, testArray);
+    }
   }
 }
 // test1 correctly takes input from user
