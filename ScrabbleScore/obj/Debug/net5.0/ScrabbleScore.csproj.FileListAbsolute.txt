@@ -10,3 +10,6 @@
 /Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/obj/Debug/net5.0/ScrabbleScore.dll
 /Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/obj/Debug/net5.0/ref/ScrabbleScore.dll
 /Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/obj/Debug/net5.0/ScrabbleScore.pdb
+/Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/bin/Debug/net5.0/ScrabbleScore.runtimeconfig.json
+/Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/bin/Debug/net5.0/ScrabbleScore.runtimeconfig.dev.json
+/Users/Nick/Desktop/CSE-week-8/ScrabbleScore.Solution/ScrabbleScore/obj/Debug/net5.0/ScrabbleScore.genruntimeconfig.cache
